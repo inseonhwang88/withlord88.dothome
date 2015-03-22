@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>withlord88's portfolio</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script>
+        function goLink(){
+            var frm = document.frm;
+            var linkValue = frm.site.options[frm.site.selectedIndex].value;
+            location.href = linkValue;
+        }
+    </script> 
+</head>
+<body>
+<dl class="skip">
+    <dt class="blind">skip navigation</dt>
+    <dd>
+        <a href="#contents">skip to Contents</a>
+    </dd>
+</dl>
+
+<hr>
+
+
+<div id="header">
+	<div class="wrap">
+		<div class="headline">
+			<h2 class="blind">headline</h2>
+			<div class="form clearfix">
+				<form action="#" name="frm">
+		        	<select name="site">
+		            	<option value="">패밀리사이트</option>
+		            	<option value="http://www.daum.net">다음</option>
+		            	<option value="http://www.naver.com">네이버</option>
+		        	</select>
+		        	<input type="button" value="이동" onclick="goLink()"/>
+		    	</form>
+		    </div>
+	    	<div class="log clearfix">
+	    		<ul>
+	    			<li><a href="#">Log in </a><span>/</span></li>
+	    			<li><a href="#">Join </a><span>/</span></li>
+	    			<li><a href="#" class="last">Home</a></li>
+	    		</ul>
+	    	</div>	
+		</div>
+
+		 	
+	</div>
+	<div class="logo clearfix">
+		<div class="wrap">
+			<h1 class="#"><a href="#">Inseon Hwang</a></h1>
+		</div>	
+	</div>
+	
+</div><!-- //header -->
+<div id="container">
+	<div class="gnb clearfix">
+		<div class="wrap">
+			<h2 class="blind">main menu</h2>
+	    	<ul class="main_menu">
+	    		<li><a href="#">Inseon Hwang</a></li>
+	    		<li><a href="#">Portfolio</a>
+					<!-- <ul>
+						<li><a href="#">Website</a>
+							<ul>
+								<li><a href="#">DRUPAL</a></li>
+								<li><a href="#">CU</a></li>
+								<li><a href="#">Hope</a></li>
+							</ul>
+						</li>
+						<li><a href="#">design</a></li>
+						<li><a href="#">illustration</a></li>
+					</ul> -->
+	    		</li>
+	    		<li class="last"><a href="#">Contact me</a></li>
+	    	</ul>
+		</div>
+		
+    </div>
+	<div class="main_img">
+		<h2 class="blind">main image</h2>
+		<div class="wrap">
+			<p><a href="#">img</a></p>
+		</div>
+	</div>
+	<div class="style">
+		<h2>----- Life style -----</h2>
+		<div class="wrap clearfix">
+			<ul class="mm01">
+				<li class="img"><a href="#"><img src="http://placehold.it/200x150" alt="image01"></a></li>
+				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aut deleniti minus, rerum numquam quo provident, et libero. Voluptatem, perferendis.</li>
+			</ul>
+			<ul class="mm02">
+				<li class="img"><a href="#"><img src="http://placehold.it/200x150" alt="image02"></a></li>
+				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores necessitatibus laboriosam labore, pariatur praesentium tempore!</li>
+			</ul>
+			<ul class="mm03">
+				<li class="img"><a href="#"><img src="http://placehold.it/200x150" alt="image03"></a></li>
+				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore aut amet quas iusto quod esse sequi sed incidunt. Sapiente, sit.</li>
+			</ul>
+			<ul class="mm04 last">
+				<li class="img"><a href="#"><img src="http://placehold.it/200x150" alt="image04"></a></li>
+				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta voluptatem suscipit voluptatibus recusandae repellendus doloremque, quod quibusdam doloribus enim cumque</li>
+			</ul>
+		</div>
+	</div>
+
+	
+</div><!-- //container -->
+<div id="footer">
+	<div class="wrap">
+		<ul class="sub_menu">
+			<li><a href="#">Inseon Hwang</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li class="last"><a href="#">Contact me</a></li>
+		</ul>
+	</div>
+	<div class="wrap clearfix">
+		<p class="copy">2015 &copy;</p>
+		<p class="right">All rights are reserved.</p>
+	</div>
+
+</div><!-- //footer -->
+
+
+	
+</body>
+</html>
