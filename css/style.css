@@ -41,7 +41,8 @@
 	border-bottom: 1px solid #E9E9E9;
 }
 .gnb ul li.last{margin-right: 0px;}
-.gnb ul li:hover{
+.gnb ul li:hover,
+.gnb ul li.on{
 	border-bottom: 1px solid #FCDFE4;
 }
 
@@ -51,17 +52,23 @@
 	text-decoration: none;
 
 }
-.gnb ul li a:hover{
+.gnb ul li a:hover,
+.gnb ul li a.on{
 	color:#F463CE;
 }
 
 /*#container{border-bottom: 3px solid hotpink;}*/
+
 #container .main_img .wrap p{
 }
-#container .main_img .wrap p a{
-	display:block; 
-	height: 500px; 
-	background: url(../img/car2.png) no-repeat 50% 50%;
+#container .main_img p a{
+	display:block;
+	width:100%;
+	height: 1000px;
+	background: url(../img/main_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	background-position: 50% 50%;
+	text-align: center;
 	text-indent: -9999em;
 }
 .style{border-top:1px solid #eee; margin-bottom: 60px;}
@@ -77,6 +84,14 @@
 }
 .style ul.last{float:right;}
 .style ul li{text-align: left; line-height: 1.6;}
+
+/*.portfolio_map p.main_bg{
+	width:100%;
+	
+	background: url(../img/main_bg.jpg) no-repeat;
+	background-size:500px 500px; 
+	text-indent: -9999em;
+}*/
 
 
 #footer{background-color:#352E2B; padding-bottom: 10px;}
